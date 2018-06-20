@@ -1,0 +1,11 @@
+.prodCard {
+    border: 1px solid black;
+}
+
+.products-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+}
+
